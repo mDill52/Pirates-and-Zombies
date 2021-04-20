@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{761CAC08-DF99-45A4-98C2-B9C6878002C4}</ProjectGuid>
+    <ProjectGuid>{0C4D4268-D222-4AFE-8741-80A361660BBC}</ProjectGuid>
     <RootNamespace>Week6LabInheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Pirates and Zombies</ProjectName>
