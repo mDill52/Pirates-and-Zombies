@@ -23,6 +23,7 @@
     <ProjectGuid>{761CAC08-DF99-45A4-98C2-B9C6878002C4}</ProjectGuid>
     <RootNamespace>Week6LabInheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Pirates and Zombies</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -147,6 +148,9 @@
     <ClInclude Include="CaptainPirate.h" />
     <ClInclude Include="Pirate.h" />
     <ClInclude Include="ZombiePirate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

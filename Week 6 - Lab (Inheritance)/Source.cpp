@@ -40,8 +40,8 @@ int main()
 	// create an array of Pirate pointers
 	// and load child objects into the parent references (polmorphism)
 	Pirate* pirates[3];
-	pirates[0] = new CaptainPirate("GruffBeard", "Guinea Pig");
-	pirates[1] = new CaptainPirate("Jack Sparrow", "Compass");
+	pirates[0] = new CaptainPirate("Captain GruffBeard", "Guinea Pig");
+	pirates[1] = new CaptainPirate("Captain Jack Sparrow", "Compass");
 	pirates[2] = new ZombiePirate("Warm Meat Murray", 0);
 
 	// display the pirates' information using a single method
@@ -54,7 +54,7 @@ int main()
 	// show the number of Pirates objects
 	cout << "\nNumber of Pirate objects: " << Pirate::getNumPirates() << endl;
 	// make the pirates speak using the polymorphic methods
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		cout << "\n" << pirates[i]->getName() + ":" << pirates[i]->speak() << endl;	
 	}
